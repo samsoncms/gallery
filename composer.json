@@ -1,5 +1,5 @@
 {
-  "name": "samsonos/cms_app_gallery",
+  "name": "samsoncms/gallery",
   "description": "SamsonCMS Material gallery application",
   "author": "Vitaly Iegorov <egorov@samsonos.com>",
   "require": {
@@ -8,7 +8,9 @@
     "samsoncms/material": "*",
     "samsonphp/upload": "*"
   },
-  "minimum-stability": "dev",
+  "replace": {
+    "samsonos/cms_app_gallery": "*"
+  },
   "license": "Open Software License (OSL) v 3.0",
   "homepage": "http://samsonos.com/",
   "autoload": {
