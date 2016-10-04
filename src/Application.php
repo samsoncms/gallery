@@ -38,7 +38,7 @@ class Application extends \samsoncms\Application
     {
         // TODO: Should be change to DI in future
         // Set pointer to file service
-        $this->fs = & $this->system->module('fs');
+        $this->fs = $this->system->module('fs');
 
         // Subscribe to material form created event for custom tab rendering
         Event::subscribe('samsoncms.material.form.created', array($this, 'tabBuilder'));
